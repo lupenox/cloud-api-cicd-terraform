@@ -1,0 +1,6 @@
+name: CD (Terraform + ECS)
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]   # no PRs yet
